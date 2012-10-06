@@ -1,13 +1,14 @@
 == This is a personal rails application template
 
 This is set up with the following gems working out of the box:
-HAML
-Rspec + Spork + Guard + Factory Girl
-Pry
-Devise (with 3 devise users, admin, auditor, user; username+password, not required email)
-rails_admin (accessible through /manage, only admin have rights to access)
-Twitter Bootstrap
-Mysql2
+
+* HAML
+* Rspec + Spork + Guard + Factory Girl
+* Pry
+* Devise (with 3 devise users, admin, auditor, user; username+password, not required email)
+* rails_admin (accessible through /manage, only admin have rights to access)
+* Twitter Bootstrap
+* Mysql2
 
 == Custom scripts
 
