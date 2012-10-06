@@ -1,0 +1,19 @@
+<% content_for :main do %>
+  <div class="span12">
+    <div style="width: 300px; text-align: center; margin: 0 auto;">
+      <h2><%= resource_name.capitalize  %> Sign in</h2>
+
+      <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+        <%= bootstrap_flash %>
+        <%= f.label :username %>
+        <%= f.text_field :username %>
+
+        <%= f.label :password %>
+        <%= f.password_field :password %>
+
+        <div><%= f.submit "Sign in" %></div>
+      <% end %>
+    </div>
+  </div>
+<% end %>
+<%= render template: "layouts/application" %>
